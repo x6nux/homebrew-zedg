@@ -11,6 +11,11 @@ cask "zedg" do
 
   app "ZedG.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-rd", "com.apple.quarantine", "#{appdir}/ZedG.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/Zed",
     "~/Library/Caches/dev.zed.ZedG",
