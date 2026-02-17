@@ -1,8 +1,8 @@
 cask "zedg" do
-  version "0.224.2-pre"
-  sha256 "ccf94132b942dd0fec2de5d36bf4ca10054bb52b82425a6567f673af65d973c3"
+  version "0.223.4"
+  sha256 "2b50cae66647e621aa89a56707e772c9c747039c004b5cec2662bc6d44afc069"
 
-  url "https://github.com/x6nux/zed-globalization/releases/download/v0.224.2-pre/zedg-zh-cn-macos-aarch64-v0.224.2-pre.dmg"
+  url "https://github.com/x6nux/zed-globalization/releases/download/v0.223.4/zedg-zh-cn-macos-aarch64-v0.223.4.dmg"
   name "ZedG"
   desc "Zed Editor (Localized / 汉化版)"
   homepage "https://github.com/x6nux/zed-globalization"
