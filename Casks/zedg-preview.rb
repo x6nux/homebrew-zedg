@@ -1,8 +1,15 @@
 cask "zedg-preview" do
-  version "0.225.7-pre.1"
-  sha256 "40c045368e8a040878d8f6201d0921faae5416590b155dd9e22344a1a6e85e0d"
+  version "0.225.8-pre"
 
-  url "https://github.com/x6nux/zed-globalization/releases/download/v0.225.7-pre.1/zedg-zh-cn-macos-universal-v0.225.7-pre.dmg"
+  on_arm do
+    url "https://github.com/x6nux/zed-globalization/releases/download/v0.225.8-pre/zedg-zh-cn-macos-aarch64-v0.225.8-pre.dmg"
+    sha256 "e666413307473834d36a2f858d85aa0ae170364db86b8338ba5aa8dc135486e7"
+  end
+  on_intel do
+    url "https://github.com/x6nux/zed-globalization/releases/download/v0.225.8-pre/zedg-zh-cn-macos-x86_64-v0.225.8-pre.dmg"
+    sha256 "64dc9e4718fbc10f5752bd0f94429666b812eb2d370f76095cb83cc95115dab4"
+  end
+
   name "ZedG"
   desc "Zed Editor (Localized / 汉化版) - Preview"
   homepage "https://github.com/x6nux/zed-globalization"
