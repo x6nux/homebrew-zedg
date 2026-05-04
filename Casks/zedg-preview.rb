@@ -1,13 +1,13 @@
 cask "zedg-preview" do
-  version "1.1.2-pre"
+  version "1.1.3-pre"
 
   on_arm do
-    url "https://github.com/x6nux/zed-globalization/releases/download/v1.1.2-pre/zedg-zh-cn-macos-aarch64-v1.1.2-pre.dmg"
-    sha256 "92d5f26208f84f721927fddeed38a0697ca38825f9a46a33237aba8cbe76a129"
+    url "https://github.com/x6nux/zed-globalization/releases/download/v1.1.3-pre/zedg-zh-cn-macos-aarch64-v1.1.3-pre.dmg"
+    sha256 "3aca6d0b6aae8e7ef0f610a8c227bc2299e9af9589e9fbe9cb50cb2ebf3474ef"
   end
   on_intel do
-    url "https://github.com/x6nux/zed-globalization/releases/download/v1.1.2-pre/zedg-zh-cn-macos-x86_64-v1.1.2-pre.dmg"
-    sha256 "59fa8e51713ab2cf075f09ab8a6dd7a19b2c4da1bae2eeb9ec97bffa7685d0da"
+    url "https://github.com/x6nux/zed-globalization/releases/download/v1.1.3-pre/zedg-zh-cn-macos-x86_64-v1.1.3-pre.dmg"
+    sha256 "dfa095fe7e8eb59fd8524241da1ba84f233d3ba48872f6cb9fb422ffc976263f"
   end
 
   name "ZedG"
