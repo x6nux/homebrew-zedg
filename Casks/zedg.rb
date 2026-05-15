@@ -1,13 +1,13 @@
 cask "zedg" do
-  version "1.2.3"
+  version "1.2.4"
 
   on_arm do
-    url "https://github.com/x6nux/zed-globalization/releases/download/v1.2.3/zedg-zh-cn-macos-aarch64-v1.2.3.dmg"
-    sha256 "d8839c10ab3d5d3151d2d54b24bdde65b5d1182cb840d326aee6e4c4e15bd225"
+    url "https://github.com/x6nux/zed-globalization/releases/download/v1.2.4/zedg-zh-cn-macos-aarch64-v1.2.4.dmg"
+    sha256 "a744f09f3457f09032fceb3101cdb614e73b59e3f212413aa7e1fcbbe3801c27"
   end
   on_intel do
-    url "https://github.com/x6nux/zed-globalization/releases/download/v1.2.3/zedg-zh-cn-macos-x86_64-v1.2.3.dmg"
-    sha256 "6234fb66d3931f90177f5f8b9cd2790950a6d7013a56afdc845ece37274939d2"
+    url "https://github.com/x6nux/zed-globalization/releases/download/v1.2.4/zedg-zh-cn-macos-x86_64-v1.2.4.dmg"
+    sha256 "83afae3f4484488add6a9e5ef2998782f9e52b2078c9dd1b127b790c55647bdd"
   end
 
   name "ZedG"
